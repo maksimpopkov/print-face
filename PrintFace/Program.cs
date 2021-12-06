@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace PrintFace
 {
@@ -18,7 +18,7 @@ namespace PrintFace
         /// <param name="userName">Name of user.</param>
         public static void SayHelloUser(string userName)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Hello, {userName}!");
         }
         
         /// <summary>
@@ -31,7 +31,7 @@ namespace PrintFace
         /// </summary>
         public static void PrintFace()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(" +\"\"\"\"\"+\n(| o o |)\n |  ^  |\n | '-' |\n +-----+");
         }
     }
 }
